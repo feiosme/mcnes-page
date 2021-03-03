@@ -5,8 +5,6 @@
   <!-- SEO相关 -->
   
     
-      <meta name="robots" content="noindex,follow">
-    
   
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
@@ -24,7 +22,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>归档：2021 - MCNES 服务器</title>
+  <title>关于 - MCNES 服务器</title>
   
 
   
@@ -106,7 +104,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body>
     
 
-<header id="l_header" class="l_header auto shadow blur " style='opacity: 0' >
+<header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -291,7 +289,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-        <div id="half" class='cover-wrapper  dock' style="display: ;">
+        <div id="full" class='cover-wrapper docs dock' style="display: none;">
           
             <div id='cover-backstretch'></div>
           
@@ -346,68 +344,70 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 
 <div class='l_main no_sidebar'>
-	
-		
-  <section class="post-list">
-    
-      
-        
-          
-            <div class='post-wrapper'>
-              <div class="post post-v3 white-box reveal shadow">
+  <article class="article post white-box reveal md shadow article-type-docs" id="docs" itemscope itemprop="blogPost">
   
-  
-  
-  
-  <div class='md'>
-    
-      <span class='p center logo large'>MCNES</span>
-<span class='p center small'>A Minecraft Server</span>
 
-<span class='btn solid center large'><a class="button" href='/go/' title='进入服务器'><i class='fas fa-play-circle'></i>进入服务器</a></span>
+
+  
+  <div class="article-meta" id="top">
+    
+    
     
   </div>
+
+
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time>2021-03-03</time>
-        
-      </div>
+  
+  <span class='p center logo large'>关于</span>
+<span class='p center small'>我们的团队</span>
+
+<div class="btns circle grid5">
+            <a class="button" target="_blank" rel="noopener" href='https://www.feios.me' title='feios'><img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png'>feios</a>
+<a class="button" target="_blank" rel="noopener" href='https://jcl.moe' title='moeloli'><img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png'>moeloli</a>
+          </div>
+  
+  
+    
+    <div class='footer'>
       
-        <div>
-          <a class='readmore' href='/index/'>
-            阅读全文
-          </a>
-        </div>
+      
+      
       
     </div>
   
-
-</div>
-
-            </div>
-          
-        
-      
-    
-    
-      
-        
-      
-    
-  </section>
   
     
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+    </div>
+  </div>
+
+
+  
+  
+
+  
+</article>
+
+
+  
+
   
 
 
-	
+
+
+
+
 </div>
 <aside class='l_side'>
   
 
 </aside>
+
 
 
 		  
@@ -423,14 +423,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   // header 这里无论是否开启pjax都需要
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.remove("show");
+  l_header.classList.add("show");
   
   
     // cover
     var cover_wrapper=document.querySelector('.cover-wrapper');
     
-    cover_wrapper.id="half";
-    cover_wrapper.style.display="";
+    cover_wrapper.id="none";
+    cover_wrapper.style.display="none";
     
   
 </script>

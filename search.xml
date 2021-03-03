@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="index/"/>
+      <url>index/</url>
+      
+        <content type="html"><![CDATA[<span class='p center logo large'>MCNES</span><span class='p center small'>A Minecraft Server</span><span class='btn solid center large'><a class="button" href='/go/' title='进入服务器'><i class='fas fa-play-circle'></i>进入服务器</a></span><span id="more"></span>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
